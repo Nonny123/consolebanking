@@ -1,11 +1,106 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "InstantBank.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InstantBank.Configuration": "1.0.0",
+          "InstantBank.DataAccess": "1.0.0",
+          "InstantBank.Entities": "1.0.0",
+          "InstantBank.Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InstantBank.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InstantBank.BusinessLogic.dll": {}
+        }
+      },
+      "InstantBank.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/InstantBank.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InstantBank.Configuration.dll": {}
+        }
+      },
+      "InstantBank.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InstantBank.Entities": "1.0.0",
+          "InstantBank.Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InstantBank.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InstantBank.DataAccess.dll": {}
+        }
+      },
+      "InstantBank.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InstantBank.Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InstantBank.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InstantBank.Entities.dll": {}
+        }
+      },
+      "InstantBank.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/InstantBank.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InstantBank.Exceptions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "InstantBank.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../InstantBank.BusinessLogic/InstantBank.BusinessLogic.csproj",
+      "msbuildProject": "../InstantBank.BusinessLogic/InstantBank.BusinessLogic.csproj"
+    },
+    "InstantBank.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../InstantBank.Configuration/InstantBank.Configuration.csproj",
+      "msbuildProject": "../InstantBank.Configuration/InstantBank.Configuration.csproj"
+    },
+    "InstantBank.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../InstantBank.DataAccessLayer/InstantBank.DataAccess.csproj",
+      "msbuildProject": "../InstantBank.DataAccessLayer/InstantBank.DataAccess.csproj"
+    },
+    "InstantBank.Entities/1.0.0": {
+      "type": "project",
+      "path": "../InstantBank.Entities/InstantBank.Entities.csproj",
+      "msbuildProject": "../InstantBank.Entities/InstantBank.Entities.csproj"
+    },
+    "InstantBank.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../InstantBank.Exceptions/InstantBank.Exceptions.csproj",
+      "msbuildProject": "../InstantBank.Exceptions/InstantBank.Exceptions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "InstantBank.BusinessLogic >= 1.0.0",
+      "InstantBank.Configuration >= 1.0.0",
+      "InstantBank.Entities >= 1.0.0",
+      "InstantBank.Exceptions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\NONSO\\.nuget\\packages\\": {},
@@ -37,7 +132,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.BusinessLogic\\InstantBank.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.BusinessLogic\\InstantBank.BusinessLogic.csproj"
+            },
+            "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Configuration\\InstantBank.Configuration.csproj": {
+              "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Configuration\\InstantBank.Configuration.csproj"
+            },
+            "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj": {
+              "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj"
+            },
+            "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj": {
+              "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

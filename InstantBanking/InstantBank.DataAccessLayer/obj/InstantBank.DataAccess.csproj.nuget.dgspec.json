@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.DataAccessLayer\\InstantBank.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.DataAccessLayer\\InstantBank.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.DataAccessLayer\\InstantBank.DataAccess.csproj",
+        "projectName": "InstantBank.DataAccess",
+        "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.DataAccessLayer\\InstantBank.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\NONSO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NONSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj": {
+                "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj"
+              },
+              "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj",
+        "projectName": "InstantBank.Entities",
+        "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\InstantBank.Entities.csproj",
+        "packagesPath": "C:\\Users\\NONSO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NONSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj",
+        "projectName": "InstantBank.Exceptions",
+        "projectPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\InstantBank.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\NONSO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NONSO\\source\\repos\\consolebanking\\InstantBanking\\InstantBank.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NONSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
