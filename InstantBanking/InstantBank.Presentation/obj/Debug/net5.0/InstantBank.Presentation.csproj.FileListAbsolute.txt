@@ -1,0 +1,16 @@
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Presentation.exe
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Presentation.deps.json
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Presentation.runtimeconfig.json
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Presentation.runtimeconfig.dev.json
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Presentation.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\ref\InstantBank.Presentation.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Presentation.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.csproj.AssemblyReference.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.AssemblyInfoInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.AssemblyInfo.cs
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\ref\InstantBank.Presentation.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.genruntimeconfig.cache
