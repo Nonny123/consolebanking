@@ -1,5 +1,6 @@
 ﻿using InstantBank.DataAccess.DALContracts;
 using InstantBank.Entities;
+using InstantBank.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace InstantBank.DataAccess
     /// <summary>
     /// Represents DAL for bank customers
     /// </summary>
-    public class CustomersDataAccess : ICustomersDataAccessLayer
+    public class CustomersDataAccessLayer : ICustomersDataAccessLayer
     {
         #region Fields
         private List<Customer> _customers;
@@ -19,7 +20,7 @@ namespace InstantBank.DataAccess
 
 
         #region Constructors
-        public CustomersDataAccess()
+        public CustomersDataAccessLayer()
         {
             _customers = new List<Customer>();
         }
@@ -45,12 +46,23 @@ namespace InstantBank.DataAccess
         /// <returns>Customers list</returns>
         public List<Customer> GetCustomers()
         {
-            //create a new customers list
-            List<Customer> customersList = new List<Customer>();
+            try
+            {
+                //create a new customers list
+                List<Customer> customersList = new List<Customer>();
 
-            //copy all customers from the soruce collection into the newCustomers list
-            Customers.ForEach(item => customersList.Add(item.Clone() as Customer));
-            return customersList;
+                //copy all customers from the soruce collection into the newCustomers list
+                Customers.ForEach(item => customersList.Add(item.Clone() as Customer));
+                return customersList;
+            }
+            catch (CustomerException)
+            {
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         /// <summary>
@@ -60,15 +72,26 @@ namespace InstantBank.DataAccess
         /// <returns>List of matching customers</returns>
         public List<Customer> GetCustomersByCondition(Predicate<Customer> predicate)
         {
-            //create a new customers list
-            List<Customer> customersList = new List<Customer>();
+            try
+            {
+                //create a new customers list
+                List<Customer> customersList = new List<Customer>();
 
-            //filter the collection
-            List<Customer> filteredCustomers = customersList.FindAll(predicate);
+                //filter the collection
+                List<Customer> filteredCustomers = customersList.FindAll(predicate);
 
-            //copy all customers from the soruce collection into the newCustomers list
-            Customers.ForEach(item => filteredCustomers.Add(item.Clone() as Customer));
-            return customersList;
+                //copy all customers from the soruce collection into the newCustomers list
+                Customers.ForEach(item => filteredCustomers.Add(item.Clone() as Customer));
+                return customersList;
+            }
+            catch (CustomerException)
+            {
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
 
@@ -79,13 +102,24 @@ namespace InstantBank.DataAccess
         /// <returns>Returns Guid of newly created customer</returns>
         public Guid AddCustomer(Customer customer)
         {
-            //generate new Guid
-            customer.CustomerID = Guid.NewGuid();
+            try
+            {
+                //generate new Guid
+                customer.CustomerID = Guid.NewGuid();
 
-            //add customer
-            Customers.Add(customer);
+                //add customer
+                Customers.Add(customer);
 
-            return customer.CustomerID;
+                return customer.CustomerID;
+            }
+            catch (CustomerException)
+            {
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
 
@@ -96,25 +130,36 @@ namespace InstantBank.DataAccess
         /// <returns>Determines whether the customer is updated or not</returns>
         public bool UpdateCustomer(Customer customer)
         {
-            //find existing customer by CustomerID
-            Customer existingCustomer = Customers.Find(item => item.CustomerID == customer.CustomerID);
-
-            //update all details of customer
-            if (existingCustomer != null)
+            try
             {
-                existingCustomer.CustomerCode = customer.CustomerCode;
-                existingCustomer.CustomerName = customer.CustomerName;
-                existingCustomer.Address = customer.Address;
-                existingCustomer.Landmark = customer.Landmark;
-                existingCustomer.City = customer.City;
-                existingCustomer.Country = customer.Country;
-                existingCustomer.Mobile = customer.Mobile;
+                //find existing customer by CustomerID
+                Customer existingCustomer = Customers.Find(item => item.CustomerID == customer.CustomerID);
 
-                return true; //indicates the customer is updated
+                //update all details of customer
+                if (existingCustomer != null)
+                {
+                    existingCustomer.CustomerCode = customer.CustomerCode;
+                    existingCustomer.CustomerName = customer.CustomerName;
+                    existingCustomer.Address = customer.Address;
+                    existingCustomer.Landmark = customer.Landmark;
+                    existingCustomer.City = customer.City;
+                    existingCustomer.Country = customer.Country;
+                    existingCustomer.Mobile = customer.Mobile;
+
+                    return true; //indicates the customer is updated
+                }
+                else
+                {
+                    return false; //indicates no object is updated
+                }
             }
-            else
+            catch (CustomerException)
             {
-                return false; //indicates no object is updated
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
             }
         }
 
@@ -125,14 +170,25 @@ namespace InstantBank.DataAccess
         /// <returns>Indicates whether the customer is deleted or not</returns>
         public bool DeleteCustomer(Guid customerID)
         {
-            //delete customer by CustomerID
-            if (Customers.RemoveAll(item => item.CustomerID == customerID) > 0)
+            try
             {
-                return true;  //indicates one or more customers are deleted
+                //delete customer by CustomerID
+                if (Customers.RemoveAll(item => item.CustomerID == customerID) > 0)
+                {
+                    return true;  //indicates one or more customers are deleted
+                }
+                else
+                {
+                    return false; //indicates no customer is deleted
+                }
             }
-            else
+            catch (CustomerException)
             {
-                return false; //indicates no customer is deleted
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
             }
         }
         #endregion
