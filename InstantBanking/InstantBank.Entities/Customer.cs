@@ -11,7 +11,7 @@ namespace InstantBank.Entities
     /// <summary>
     /// Represents customer of the bank
     /// </summary>
-    public class Customer : ICustomer
+    public class Customer : ICustomer, ICloneable
     {
         #region Private fields
         private Guid _customerID;
@@ -28,7 +28,11 @@ namespace InstantBank.Entities
         /// <summary>
         /// Guid of Customer for Unique identfication
         /// </summary>
-        public Guid CustomerID { get => _customerID; set => _customerID = value; }
+        public Guid CustomerID 
+        { 
+            get => _customerID; 
+            set => _customerID = value; 
+        }
 
         /// <summary>
         /// Auto-generated code number of the customer
@@ -73,17 +77,29 @@ namespace InstantBank.Entities
         /// <summary>
         /// Address of the customer
         /// </summary>
-        public string Address { get => _address; set => _address = value; }
+        public string Address 
+        { 
+            get => _address; 
+            set => _address = value; 
+        }
 
         /// <summary>
         /// Landmark of the customer's address
         /// </summary>
-        public string Landmark { get => _landmark; set => _landmark = value; }
+        public string Landmark 
+        { 
+            get => _landmark; 
+            set => _landmark = value; 
+        }
 
         /// <summary>
         /// City of the customer
         /// </summary>
-        public string City { get => _city; set => _city = value; }
+        public string City 
+        { 
+            get => _city; 
+            set => _city = value; 
+        }
 
         /// <summary>
         /// Country of the customer
@@ -91,23 +107,28 @@ namespace InstantBank.Entities
         public string Country { get => _country; set => _country = value; }
 
         /// <summary>
-        /// 10-digit Mobile number of the customer
+        /// 11-digit Mobile number of the customer
         /// </summary>
         public string Mobile
         {
             get => _mobile;
             set
             {
-                //mobile number should be 10 digit mobile number
-                if (value.Length == 10)
+                //mobile number should be 11 digit mobile number
+                if (value.Length == 11)
                 {
                     _mobile = value;
                 }
                 else
                 {
-                    throw new CustomerException("Mobile number should be a 10-digit number");
+                    throw new CustomerException("Mobile number should be a 11-digit number");
                 }
             }
+        }
+
+        public object Clone()
+        {
+            return new Customer() { CustomerID = this.CustomerID, CustomerCode = this.CustomerCode, CustomerName = this.CustomerName, Address = this.Address, Landmark = this.Landmark, _address = this.Address, City = this.City, Country = this.Country, Mobile = this.Mobile };
         }
         #endregion
     }
