@@ -1,0 +1,17 @@
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.csproj.AssemblyReference.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.AssemblyInfoInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.AssemblyInfo.cs
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.DataAccess.deps.json
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.DataAccess.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\ref\InstantBank.DataAccess.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.DataAccess.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.Entities.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.Exceptions.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.Entities.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\bin\Debug\net5.0\InstantBank.Exceptions.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.csproj.CopyComplete
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\ref\InstantBank.DataAccess.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.DataAccessLayer\obj\Debug\net5.0\InstantBank.DataAccess.pdb

@@ -3,16 +3,14 @@ using InstantBank.Entities;
 using InstantBank.Exceptions;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace InstantBank.DataAccess
 {
     /// <summary>
     /// Represents DAL for bank customers
     /// </summary>
-    public class CustomersDataAccessLayer : ICustomersDataAccessLayer
+    public class CustomersDataAccess : ICustomersDataAccess
     {
         #region Fields
         private List<Customer> _customers;
@@ -20,7 +18,7 @@ namespace InstantBank.DataAccess
 
 
         #region Constructors
-        public CustomersDataAccessLayer()
+        public CustomersDataAccess()
         {
             _customers = new List<Customer>();
         }

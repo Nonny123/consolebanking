@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "InstantBank.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "InstantBank.Configuration": "1.0.0",
+          "InstantBank.DataAccess": "1.0.0",
+          "InstantBank.Entities": "1.0.0",
+          "InstantBank.Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "InstantBank.BusinessLogic.dll": {}
+        }
+      },
+      "InstantBank.Configuration/1.0.0": {
+        "runtime": {
+          "InstantBank.Configuration.dll": {}
+        }
+      },
+      "InstantBank.DataAccess/1.0.0": {
+        "dependencies": {
+          "InstantBank.Entities": "1.0.0",
+          "InstantBank.Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "InstantBank.DataAccess.dll": {}
+        }
+      },
+      "InstantBank.Entities/1.0.0": {
+        "dependencies": {
+          "InstantBank.Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "InstantBank.Entities.dll": {}
+        }
+      },
+      "InstantBank.Exceptions/1.0.0": {
+        "runtime": {
+          "InstantBank.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InstantBank.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstantBank.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstantBank.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstantBank.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstantBank.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

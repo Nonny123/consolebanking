@@ -1,0 +1,12 @@
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.csproj.AssemblyReference.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.AssemblyInfoInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.AssemblyInfo.cs
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\bin\Debug\net5.0\InstantBank.Configuration.deps.json
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\bin\Debug\net5.0\InstantBank.Configuration.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\bin\Debug\net5.0\ref\InstantBank.Configuration.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\bin\Debug\net5.0\InstantBank.Configuration.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\ref\InstantBank.Configuration.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Configuration\obj\Debug\net5.0\InstantBank.Configuration.pdb

@@ -1,0 +1,12 @@
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.csproj.AssemblyReference.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.AssemblyInfoInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.AssemblyInfo.cs
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\bin\Debug\net5.0\InstantBank.Exceptions.deps.json
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\bin\Debug\net5.0\InstantBank.Exceptions.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\bin\Debug\net5.0\ref\InstantBank.Exceptions.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\bin\Debug\net5.0\InstantBank.Exceptions.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\ref\InstantBank.Exceptions.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.pdb

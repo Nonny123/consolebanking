@@ -14,3 +14,14 @@ C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentati
 C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\ref\InstantBank.Presentation.dll
 C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.pdb
 C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.genruntimeconfig.cache
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.BusinessLogic.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Configuration.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.DataAccess.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Entities.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Exceptions.dll
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.BusinessLogic.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Configuration.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Entities.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.Exceptions.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\bin\Debug\net5.0\InstantBank.DataAccess.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Presentation\obj\Debug\net5.0\InstantBank.Presentation.csproj.CopyComplete

@@ -1,19 +1,21 @@
 ﻿using InstantBank.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace InstantBank.DataAccess.DALContracts
+namespace InstantBank.BusinessLogic.BALContracts
 {
     /// <summary>
-    /// Interface that represents customers data access layer
+    /// Interface that represents customers business logic
     /// </summary>
-    public interface ICustomersDataAccessLayer
+    public interface ICustomersBusinessLogic
     {
-        /// <summary>
+        // <summary>
         /// Returns all existing customers
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List of customers</returns>
         List<Customer> GetCustomers();
 
         /// <summary>
