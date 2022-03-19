@@ -12,7 +12,7 @@ namespace InstantBank.BusinessLogic
     /// <summary>
     /// Represents customer business logic
     /// </summary>
-    public class CustomersBusinessLogicLayer : ICustomersBusinessLogic
+    public class CustomersBusinessLogic : ICustomersBusinessLogic
     {
         #region Private Fields
         private ICustomersDataAccess _customersDataAccess;
@@ -22,7 +22,7 @@ namespace InstantBank.BusinessLogic
         /// <summary>
         /// Constructor that initializes CustomersDataAccessLayer
         /// </summary>
-        public CustomersBusinessLogicLayer()
+        public CustomersBusinessLogic()
         {
             _customersDataAccess = new CustomersDataAccess();
         }
@@ -113,7 +113,7 @@ namespace InstantBank.BusinessLogic
                 }
                 else
                 {
-                    customer.CustomerCode = InstantBank.Configuration.Settings.BaseCustomerNo + 1;
+                    customer.CustomerCode = Configuration.Settings.BaseCustomerNo + 1;
                 }
 
                 //invoke DAL

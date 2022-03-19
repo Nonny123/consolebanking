@@ -4,7 +4,8 @@ namespace InstantBank.Presentation
 {
     class Program
     {
-        static void Main(string[] args)
+        //Application execution starts here
+        static void Main()
         {
             //display title
             System.Console.WriteLine("************** Instant Bank *****************");
@@ -82,12 +83,20 @@ namespace InstantBank.Presentation
                 System.Console.WriteLine("1. Add Customer");
                 System.Console.WriteLine("2. Delete Customer");
                 System.Console.WriteLine("3. Update Customer");
-                System.Console.WriteLine("4. View Customers");
+                System.Console.WriteLine("4. Search Customers");
+                System.Console.WriteLine("5. View Customers");
                 System.Console.WriteLine("0. Back to Main Menu");
 
                 //accept customers menu choice
                 System.Console.Write("Enter choice: ");
                 customerMenuChoice = System.Convert.ToInt32(System.Console.ReadLine());
+
+                //switch case
+                switch (customerMenuChoice)
+                {
+                    case 1: CustomersPresentation.AddCustomer(); break;
+                    case 5: CustomersPresentation.ViewCustomers(); break;
+                }
             } while (customerMenuChoice != 0);
         }
 
@@ -101,17 +110,19 @@ namespace InstantBank.Presentation
             do
             {
                 //print  accounts menu
-                System.Console.WriteLine("\n:::Accounts menu:::");
-                System.Console.WriteLine("1. Add Account");
-                System.Console.WriteLine("2. Delete Account");
-                System.Console.WriteLine("3. Update Account");
-                System.Console.WriteLine("4. View Accounts");
-                System.Console.WriteLine("0. Back to Main Menu");
+                Console.WriteLine("\n:::Accounts menu:::");
+                Console.WriteLine("1. Add Account");
+                Console.WriteLine("2. Delete Account");
+                Console.WriteLine("3. Update Account");
+                Console.WriteLine("4. View Accounts");
+                Console.WriteLine("0. Back to Main Menu");
 
                 //accept accounts menu choice
                 System.Console.Write("Enter choice: ");
-                accountsMenuChoice = System.Convert.ToInt32(System.Console.ReadLine());
+                accountsMenuChoice = System.Convert.ToInt32(Console.ReadLine());
             } while (accountsMenuChoice != 0);
         }
     }
 }
+
+
