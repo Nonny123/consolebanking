@@ -28,11 +28,7 @@ namespace InstantBank.Entities
         /// <summary>
         /// Guid of Customer for Unique identfication
         /// </summary>
-        public Guid CustomerID 
-        { 
-            get => _customerID; 
-            set => _customerID = value; 
-        }
+        public Guid CustomerID { get => _customerID; set => _customerID = value; }
 
         /// <summary>
         /// Auto-generated code number of the customer
@@ -104,7 +100,12 @@ namespace InstantBank.Entities
         /// <summary>
         /// Country of the customer
         /// </summary>
-        public string Country { get => _country; set => _country = value; }
+        public string Country 
+        { 
+            get => _country; 
+            set => _country = value; 
+        }
+
 
         /// <summary>
         /// 11-digit Mobile number of the customer

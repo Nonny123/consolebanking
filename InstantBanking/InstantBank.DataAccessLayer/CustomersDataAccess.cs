@@ -13,12 +13,12 @@ namespace InstantBank.DataAccess
     public class CustomersDataAccess : ICustomersDataAccess
     {
         #region Fields
-        private List<Customer> _customers;
+        private static List<Customer> _customers;
         #endregion
 
 
         #region Constructors
-        public CustomersDataAccess()
+        static CustomersDataAccess()
         {
             _customers = new List<Customer>();
         }
@@ -29,7 +29,7 @@ namespace InstantBank.DataAccess
         /// <summary>
         /// Represents source customers collection
         /// </summary>
-        private List<Customer> Customers
+        private static List<Customer> Customers  //Make the collection static so it will be initialized only once and not every time a menu option is chosen 
         {
             set => _customers = value;
             get => _customers;
@@ -76,10 +76,10 @@ namespace InstantBank.DataAccess
                 List<Customer> customersList = new List<Customer>();
 
                 //filter the collection
-                List<Customer> filteredCustomers = customersList.FindAll(predicate);
+                List<Customer> filteredCustomers = Customers.FindAll(predicate);
 
-                //copy all customers from the soruce collection into the newCustomers list
-                Customers.ForEach(item => filteredCustomers.Add(item.Clone() as Customer));
+                //copy all customers from the source collection into the newCustomers list
+                filteredCustomers.ForEach(item => customersList.Add(item.Clone() as Customer));
                 return customersList;
             }
             catch (CustomerException)

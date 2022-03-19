@@ -9,3 +9,4 @@ C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions
 C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.dll
 C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\ref\InstantBank.Exceptions.dll
 C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.pdb
+C:\Users\NONSO\source\repos\consolebanking\InstantBanking\InstantBank.Exceptions\obj\Debug\net5.0\InstantBank.Exceptions.csproj.AssemblyReference.cache
